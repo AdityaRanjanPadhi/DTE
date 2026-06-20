@@ -115,7 +115,6 @@ function [theta, phi] = estimate_angles_constrained(ax, ay, az)
         
         % Projection of acceleration onto the writing plane
         % using Rodrigues' rotation formula
-        % Equation (9)
         v_rot = @(x) (a_p(x)*cos(-m_alpha) + cross(k_unit(x), a_p(x))*sin(-m_alpha));
 
         % Extract x-component
