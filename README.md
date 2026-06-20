@@ -40,9 +40,9 @@ The estimated orientation enables gravity compensation, providing a foundation f
 .
 ├── Main.m
 ├── Simulink_Model.slx
-├── Results/
+├── Dataset/
 │   ├── Circular_Motion/
-│   ├── Linear_Motion/
+│   ├── Straight_Line_Motion/
 │   └── Eight_Motion/
 └── README.md
 ```
